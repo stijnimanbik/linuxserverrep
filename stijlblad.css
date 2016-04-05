@@ -1,0 +1,93 @@
+body {
+	background-image: url("img/background.jpg");
+	background-color: #f5f5f0;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+@font-face {
+	font-family: 'ac'
+	src: url('font/ac.ttf');
+}
+H1 {
+	font-family: url("font/ac.ttf");
+    src: url('ost.ttf');
+    color: white;
+}
+
+P {
+	color: white;
+	font-family: url("font/ac.ttf")
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 10px;
+}
+li {
+	float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #1affd1;
+}
+
+div {
+position:static
+top:0;
+left:0;
+width:100%;
+height:50px; /* change me */
+margin-top:-10px;
+}
+
+.menuBar {
+	position:fixed;
+	text-align: center;
+	margin-top: -5%
+
+.title {
+	margin-top: 50px;
+}
+
+img {
+	margin-left: 0px;
+}
+
+.projectmenu {
+	background-color: #d6d6c2;
+	float: left;
+}
+
+.contact {
+
+}
+
+.contacttitel {
+	margin-top: 50px;
+}
+
+.wiebenik {
+	margin-left: 50px;
+	margin-top: -400px;
+}
+
+.rekt {
+	float: left;
+}
+
+.Stijn {
+	margin-bottom: 50px;
+}
